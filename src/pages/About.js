@@ -1,12 +1,13 @@
 import React from "react";
 import "./About.css";
+import AboutBanner from "../img/about/AboutBanner.jpeg";
 
 const About = () => {
   return (
     <div className="about-page">
       {/* === Banner Section === */}
       <div className="about-banner">
-        <img src="/img/about/AboutBanner.jpeg" alt="Contact Us" />
+        <img src={AboutBanner} alt="Contact Us" />
         <h1 className="aboutHead-title">About</h1>
       </div>
       <div>

@@ -1,13 +1,14 @@
 import React from "react";
 import "./Product.css";
 import products from "../data/Product";
+import ProductBanner from "../img/product/ProductBanner.JPG";
 
 const Product = () => {
   return (
     <div className="product-tab">
       {/* === Banner Section === */}
       <div className="product-banner">
-        <img src="/img/product/ProductBanner.JPG" alt="Contact Us" />
+        <img src={ProductBanner} alt="Contact Us" />
         <h1 className="productHead-title">Product</h1>
       </div>
 

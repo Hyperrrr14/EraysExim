@@ -2,8 +2,14 @@ import React from "react";
 
 const certificate = [
   {
-    img: "/img/certification/halal.png",
+    imageName: "halal.png",
   },
 ];
 
-export default certificate;
+// Dynamically require images
+const certificateData = certificate.map((cert) => ({
+  ...cert,
+  img: require(`../img/certification/${cert.imageName}`),
+}));
+
+export default certificateData;

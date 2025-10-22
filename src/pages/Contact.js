@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+import ContactBanner from "../img/contact/ContactBanner.webp";
 
 const Contact = () => {
   const form = useRef();
@@ -37,10 +38,7 @@ const Contact = () => {
     <div className="contact-page">
       {/* === Banner Section === */}
       <div className="contact-banner">
-        <img
-          src="/img/contact/Dehydrated-Gralic-and-onion.webp"
-          alt="Contact Us"
-        />
+        <img src={ContactBanner} alt="Contact Us" />
         <h1 className="contact-title">Contact</h1>
       </div>
       {/* === Contact Info Section === */}

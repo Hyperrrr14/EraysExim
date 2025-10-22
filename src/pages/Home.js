@@ -2,17 +2,14 @@ import React from "react";
 import "./Home.css";
 import products from "../data/Product";
 import certificates from "../data/Certificates";
+import HomeBanner from "../img/home/HomeBanner.jpeg";
 
 const Home = () => {
   return (
     <div className="home-container">
       {/* === Hero Section === */}
       <section className="hero-section">
-        <img
-          src="/img/home/HomeBanner.jpeg"
-          alt="ERAYS EXIM Banner"
-          className="hero-image"
-        />
+        <img src={HomeBanner} alt="ERAYS EXIM Banner" className="hero-image" />
         <div className="hero-overlay">
           <h1>Bringing Nature’s Goodness to Your Plate</h1>
           <p>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+import logo from "../img/logo/logo_1.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,11 +15,7 @@ function Navbar() {
       <div className="navbar-container">
         {/* === Logo Section === */}
         <div className="logo-container">
-          <img
-            src="/img/logo/logo_1.png"
-            alt="ERAYS EXIM Logo"
-            className="logo-img"
-          />
+          <img src={logo} alt="ERAYS EXIM Logo" className="logo-img" />
           <div className="logo-text">
             <h1 className="logo">
               ERAYS <span>EXIM</span>

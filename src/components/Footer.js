@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./Footer.css";
+import logo from "../img/logo/logo_1.png";
 
 const Footer = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,11 +21,7 @@ const Footer = () => {
         {/* === LEFT: LOGO & TAGLINE === */}
         <div className="footer-section logo-section">
           <div className="logo-container">
-            <img
-              src="/img/logo/logo_1.png"
-              alt="Erays EXIM Logo"
-              className="footer-logo-img"
-            />
+            <img src={logo} alt="Erays EXIM Logo" className="footer-logo-img" />
             <div className="footer-logo-text">
               <h2 className="footer-logo">
                 ERAYS <span>EXIM</span>
