@@ -1,0 +1,217 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3rem 1rem 1rem;
+  font-family: "Poppins", sans-serif;
+  border-top: 2px solid #d4a14a;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.logo-section .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* === LOGO SECTION === */
+.footer-logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-logo-img:hover {
+  transform: scale(1.05);
+}
+
+.footer-logo-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(212, 161, 74, 0.4));
+  transition: transform 0.3s ease;
+}
+
+.footer-logo span {
+  color: #d4a14a;
+}
+
+.footer-slogan {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #d4a14a;
+  letter-spacing: 0.5px;
+  margin-top: 6px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.footer-logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.footer-tagline {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #dcdcdc;
+}
+.logo-section:hover .footer-logo {
+  transform: scale(1.05);
+  color: #d4a14a;
+}
+
+.logo-section:hover .footer-logo span {
+  color: #ffffff;
+}
+
+.logo-section:hover .footer-slogan {
+  color: #ffffff;
+}
+
+/* === MOBILE RESPONSIVE === */
+@media screen and (max-width: 768px) {
+  .logo-section .logo-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-logo {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .footer-slogan {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .footer-logo-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* === QUICK LINKS === */
+.quicklinks-section h3,
+.contact-section h3 {
+  color: #d4a14a;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.quicklinks-section ul {
+  list-style: none;
+}
+
+.quicklinks-section li {
+  margin-bottom: 0.5rem;
+}
+
+.quicklinks-section a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.quicklinks-section a:hover {
+  color: #d4a14a;
+}
+
+/* === CONTACT SECTION === */
+.contact-section p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #dcdcdc;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #d4a14a;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+/* === COPYRIGHT SECTION === */
+.footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}
+
+.footer-bottom span {
+  color: #d4a14a;
+}
+.footer-bottom .white {
+  color: #ffffff; /* Make ERAYS white */
+}
+
+/* === RESPONSIVE === */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+.nav-links a.active {
+  color: #d4a14a; /* Gold highlight */
+  border-bottom: 2px solid #d4a14a;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(212, 161, 74, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+/* === ACTIVE LINK GLOW IN FOOTER === */
+.quicklinks-section a.active {
+  color: #d4a14a; /* Gold highlight */
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(212, 161, 74, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Optional: pulse animation for active link */
+@keyframes footerGoldPulse {
+  0% {
+    text-shadow: 0 0 6px rgba(212, 161, 74, 0.4);
+  }
+  50% {
+    text-shadow: 0 0 16px rgba(212, 161, 74, 0.9);
+  }
+  100% {
+    text-shadow: 0 0 6px rgba(212, 161, 74, 0.4);
+  }
+}
+
+.quicklinks-section a.active {
+  animation: footerGoldPulse 2s infinite ease-in-out;
+}
