@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/EraysExim/home/static/css/main.fd7b698e.css",
-    "main.js": "/EraysExim/home/static/js/main.67aac685.js",
-    "static/js/453.4ba24531.chunk.js": "/EraysExim/home/static/js/453.4ba24531.chunk.js",
-    "static/media/logo_1.png": "/EraysExim/home/static/media/logo_1.0fe5d5ad8a2f1dad8159.png",
-    "static/media/ContactBanner.webp": "/EraysExim/home/static/media/ContactBanner.ff434daa9985596e383c.webp",
-    "static/media/ProductBanner.JPG": "/EraysExim/home/static/media/ProductBanner.8720c70ec4a78d9f567a.JPG",
-    "static/media/OtherVegetableWithPowder.jpeg": "/EraysExim/home/static/media/OtherVegetableWithPowder.7a554af5aa0e42c65850.jpeg",
-    "static/media/halal.png": "/EraysExim/home/static/media/halal.0968f890628a62bcf6f6.png",
-    "static/media/AboutBanner.jpeg": "/EraysExim/home/static/media/AboutBanner.14775ab3d0fc7d107c60.jpeg",
-    "static/media/DehydratedGinger.jpeg": "/EraysExim/home/static/media/DehydratedGinger.496f186f0e74b1d644b9.jpeg",
-    "static/media/HomeBanner.jpeg": "/EraysExim/home/static/media/HomeBanner.c5eefae24bccf74ce9f4.jpeg",
-    "static/media/logo.svg": "/EraysExim/home/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/EraysExim/home/index.html",
-    "main.fd7b698e.css.map": "/EraysExim/home/static/css/main.fd7b698e.css.map",
-    "main.67aac685.js.map": "/EraysExim/home/static/js/main.67aac685.js.map",
-    "453.4ba24531.chunk.js.map": "/EraysExim/home/static/js/453.4ba24531.chunk.js.map"
+    "main.css": "/EraysExim/static/css/main.fd7b698e.css",
+    "main.js": "/EraysExim/static/js/main.b20c319e.js",
+    "static/js/453.4ba24531.chunk.js": "/EraysExim/static/js/453.4ba24531.chunk.js",
+    "static/media/logo_1.png": "/EraysExim/static/media/logo_1.0fe5d5ad8a2f1dad8159.png",
+    "static/media/ContactBanner.webp": "/EraysExim/static/media/ContactBanner.ff434daa9985596e383c.webp",
+    "static/media/ProductBanner.JPG": "/EraysExim/static/media/ProductBanner.8720c70ec4a78d9f567a.JPG",
+    "static/media/OtherVegetableWithPowder.jpeg": "/EraysExim/static/media/OtherVegetableWithPowder.7a554af5aa0e42c65850.jpeg",
+    "static/media/halal.png": "/EraysExim/static/media/halal.0968f890628a62bcf6f6.png",
+    "static/media/AboutBanner.jpeg": "/EraysExim/static/media/AboutBanner.14775ab3d0fc7d107c60.jpeg",
+    "static/media/DehydratedGinger.jpeg": "/EraysExim/static/media/DehydratedGinger.496f186f0e74b1d644b9.jpeg",
+    "static/media/HomeBanner.jpeg": "/EraysExim/static/media/HomeBanner.c5eefae24bccf74ce9f4.jpeg",
+    "static/media/logo.svg": "/EraysExim/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EraysExim/index.html",
+    "main.fd7b698e.css.map": "/EraysExim/static/css/main.fd7b698e.css.map",
+    "main.b20c319e.js.map": "/EraysExim/static/js/main.b20c319e.js.map",
+    "453.4ba24531.chunk.js.map": "/EraysExim/static/js/453.4ba24531.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd7b698e.css",
-    "static/js/main.67aac685.js"
+    "static/js/main.b20c319e.js"
   ]
 }
