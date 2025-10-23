@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import products from "../data/Product";
 import certificates from "../data/Certificates";
-import HomeBanner from "../img/home/HomeBanner.jpeg";
+import HomeBanner from "../img/home/home.png";
 
 const Home = () => {
   return (

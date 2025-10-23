@@ -9,6 +9,7 @@
 .contact-banner {
   position: relative;
   overflow: hidden;
+  filter: brightness(1);
 }
 
 .contact-banner img {

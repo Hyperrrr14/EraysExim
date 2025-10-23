@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product.css";
 import products from "../data/Product";
-import ProductBanner from "../img/product/ProductBanner.JPG";
+import ProductBanner from "../img/product/products.png";
 
 const Product = () => {
   return (

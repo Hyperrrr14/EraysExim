@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./Footer.css";
-import logo from "../img/logo/logo_1.png";
+import logo from "../img/logo/logo.png";
 
 const Footer = () => {
   const [menuOpen, setMenuOpen] = useState(false);

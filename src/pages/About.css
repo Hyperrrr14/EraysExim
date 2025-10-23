@@ -1,7 +1,6 @@
 .about-page {
   font-family: "Poppins", sans-serif;
   padding: 3rem 1rem;
-  font-family: "Poppins", sans-serif;
   color: #fff;
   background-color: #000;
   line-height: 1.8;
@@ -10,7 +9,9 @@
 /* === Banner === */
 .about-banner {
   position: relative;
+  height: 50vh;
   overflow: hidden;
+  filter: brightness(1.5);
 }
 
 .about-banner img {
